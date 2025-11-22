@@ -9,6 +9,7 @@ android/.gradle/
 android/local.properties
 android/app/build/
 android/.idea/
+android_backup/
 *.iml
 .cxx/
 
