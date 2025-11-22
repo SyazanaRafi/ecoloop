@@ -1,0 +1,55 @@
+name: ecoloop
+description: "A new Flutter project."
+# ... (rest of the file content)
+
+environment:
+  sdk: '^3.8.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.3.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2
+  geolocator: ^10.1.0
+  permission_handler: ^11.0.0
+  google_maps_flutter: ^2.5.0
+  url_launcher: ^6.2.1
+  http: ^1.5.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.4
+
+# ----------------------------------------------------------------
+# 🚩 Place the flutter_native_splash configuration here (NO INDENTATION)
+# ------------------------------------------------------------------
+flutter_native_splash:
+  # The color of the background (white)
+  color: "#FFFFFF" 
+  
+  
+  # How the image should be positioned (optional, defaults to center)
+  # android_gravity: center
+  # ios_content_mode: center
+  
+  # (Optional) Configuration for a dark mode splash screen
+  # color_dark: "#121212"
+  # image_dark: assets/ecoloop_logo_dark.png
+# ------------------------------------------------------------------
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ecoloop_logo.png
+    - assets/e-waste.jpg
+    - assets/howtodisposal.jpg
+    - assets/whyrecycle.jpg
+    - assets/batteries_bulbs.jpg
+    - assets/recyclebin.jpg
